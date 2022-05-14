@@ -1,0 +1,47 @@
+{
+  "name": "Animoshaver",
+  "version": "1.0.0",
+  "description": "application for lawyers",
+  "author": "ahmad",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@feathersjs/authentication-client": "^1.0.11",
+    "@feathersjs/configuration": "^2.0.6",
+    "@feathersjs/express": "^1.3.1",
+    "@feathersjs/feathers": "^3.3.1",
+    "@feathersjs/socketio-client": "^1.2.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "cookie-storage": "^5.0.1",
+    "lodash": "^4.17.15",
+    "feathers-vuex": "^1.7.0",
+    "jalali-moment": "^3.3.2",
+    "numeral": "^2.0.6",
+    "nuxt": "^2.0.0",
+    "socket.io-client": "^2.2.0",
+    "sweetalert": "^2.1.2",
+    "vuetify": "^2.2.17",
+    "vuetify-upload-button": "^2.0.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.0.45",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
